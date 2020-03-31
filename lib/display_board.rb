@@ -13,17 +13,17 @@ end
 
 display_board(board)
 
-board_a = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
-def display_board_a(board_a)
+def display_board(board)
   puts "   |   |   "
   puts "-----------"
-  puts "   | #{board_a[4]} |   "
+  puts "   | #{board[4]} |   "
   puts "-----------"
   puts "   |   |   "
 end
 
-display_board_a(board_a)
+display_board(board)
 
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
