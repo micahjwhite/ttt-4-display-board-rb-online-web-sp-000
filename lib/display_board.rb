@@ -23,7 +23,7 @@ def display_board_a(board_a)
   puts "   |   |   "
 end
 
-display_board(board)
+display_board_a(board_a)
 
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
